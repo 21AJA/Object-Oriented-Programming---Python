@@ -57,3 +57,17 @@ del stu1.branch
 print(stu1.branch)
 print(stu1.marks)
 
+#Private Attributes and methods
+class Account:
+    def __init__(self,acc_no,password):
+        self.acc_no=acc_no
+        self.__password=password #private attribute 
+acc1=Account(20345,"ahuhf3")
+print(acc1.acc_no)
+print(acc1.password)
+
+    
+        
+        
+        
+
